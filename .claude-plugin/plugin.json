@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "impero",
+  "displayName": "Impero",
+  "version": "1.0.0",
+  "description": "Work with your Impero controls and activities in Claude: see what's due, review submissions, follow up on late work, fill in activities and draft controls.",
+  "author": {
+    "name": "Impero A/S",
+    "url": "https://www.impero.com"
+  },
+  "homepage": "https://github.com/impero-com/impero-plugin",
+  "repository": "https://github.com/impero-com/impero-plugin",
+  "license": "MIT",
+  "keywords": [
+    "impero",
+    "compliance",
+    "internal-controls",
+    "grc",
+    "audit"
+  ],
+  "icon": "./assets/icon.png",
+  "supportUrl": "https://support.impero.com",
+  "privacyPolicyUrl": "https://www.impero.com/privacy-policy"
+}

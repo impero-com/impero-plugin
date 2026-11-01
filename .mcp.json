@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "impero": {
+      "type": "http",
+      "url": "https://login.impero.com/mcp"
+    }
+  }
+}

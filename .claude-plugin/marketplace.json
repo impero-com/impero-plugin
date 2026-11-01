@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "impero",
+  "description": "Impero's plugin for Claude.",
+  "owner": {
+    "name": "Impero A/S",
+    "url": "https://www.impero.com"
+  },
+  "plugins": [
+    {
+      "name": "impero",
+      "source": "./",
+      "description": "Work with your Impero controls and activities in Claude."
+    }
+  ]
+}
