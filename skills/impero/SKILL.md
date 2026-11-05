@@ -1,6 +1,6 @@
 ---
 name: impero
-description: Explains Impero, the compliance platform, and how to use the Impero connector's tools (impero_*). Use it before the first Impero tool call for anything done with Impero, such as what's due, overdue or waiting for review, someone's work, a control, an activity and its evidence files, reviewing, pre-assessing or first-reviewing submissions, control health, changes to the setup, completing or filling in the person's own activity, drafting or creating controls, or reminding, extending, reopening, handing over or reviewing activities. It covers what Impero holds (programs, controls, activities and their steps, due dates and status, people, pools and groups), which tool reads what, and the Impero panels where the person confirms a change. What passes, what's flagged and how the result is written come from the customer's own instructions. It changes nothing in Impero.
+description: Explains Impero, the compliance platform, and how to use the Impero connector's tools (impero_*). Use it before the first Impero tool call for anything done with Impero, such as what's due, overdue or waiting for review, someone's work, a control, an activity and its evidence files, reviewing, pre-assessing or first-reviewing submissions, control health, changes to the setup, risks and their mitigating controls, completing or filling in the person's own activity, drafting or creating controls, or reminding, extending, reopening, handing over or reviewing activities. It covers what Impero holds (programs, controls, activities and their steps, due dates and status, people, pools and groups), which tool reads what, and the Impero panels where the person confirms a change. What passes, what's flagged and how the result is written come from the customer's own instructions. It changes nothing in Impero.
 compatibility: Requires the Impero connector.
 ---
 
@@ -33,8 +33,12 @@ Call `impero_whoami` first. The other answers name people without saying which o
 | Several activities, to check them against their controls | `impero_get_activities` |
 | A control's setup | `impero_get_control` |
 | Which programs there are | `impero_list_programs` |
+| Which risk directories there are, and their risk entities | `impero_list_risk_directories` |
+| The risks in a directory: ratings, response and mitigating controls | `impero_list_risks` |
 | Rates and trends | `impero_get_control_health` |
 | What happened to one activity, and who did it | `impero_get_activity_timeline` |
+| What happened to one risk at a risk entity, and who did it | `impero_get_risk_history` |
+| How a risk directory changed between two dates | `impero_compare_risks` |
 | Who changed the setup of a program, control or entity | `impero_list_changes` |
 | A file on an activity | `impero_get_file` |
 
@@ -86,3 +90,4 @@ Read the guide for the task before you start it:
 - [Handing over](references/handing-over.md): moving someone's open activities to another person.
 - [Drafting controls](references/drafting.md): new controls from a description, a policy or an existing control, and the control draft.
 - [Overseeing](references/overseeing.md): control health, an activity's history, changes to the setup, and reviewing a framework.
+- [Risks and controls](references/risks.md): a directory's risks and their mitigating controls, a risk's history, and changes between two dates.
