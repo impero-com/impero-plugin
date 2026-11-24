@@ -10,11 +10,13 @@ The official [Impero](https://www.impero.com) plugin for Claude. It connects Cla
 With them, you can ask Claude to:
 
 - Show what's due, overdue or waiting for your review
-- Review a submission against its control and evidence
+- Review a submission against its control and its files
 - Remind, extend, reopen or reassign an activity
 - Fill in and submit your own activities
 - Draft a new control
-- Check a control's health or recent changes to your setup
+- Check the Dashboard or recent changes to your setup
+- See your risks and the controls that mitigate them
+- Find a user group and see what waits on it
 
 Claude can't change anything in Impero by itself. Changes are made in an Impero panel in the conversation, and only when you confirm them. Claude Code doesn't show panels, so there Claude gives you a link to make the change in Impero instead.
 
@@ -23,7 +25,8 @@ Claude can't change anything in Impero by itself. Changes are made in an Impero 
 ### Claude Code
 
 ```
-/plugin install impero --marketplace impero-com/impero-plugin
+/plugin marketplace add impero-com/impero-plugin
+/plugin install impero@impero
 ```
 
 Then run `/mcp`, select **impero** and sign in with your Impero account.
@@ -34,7 +37,7 @@ Add the marketplace `impero-com/impero-plugin` under **Customize > Plugins** and
 
 ## Requirements
 
-- An Impero account with the **MCP user** role. Org Admins have access already.
+- An Impero account with the **MCP user** role. Administrators have access already.
 - Impero needs to have turned on the connector for your organisation. Ask your Impero contact or [Impero support](https://support.impero.com).
 
 ## Privacy and support
