@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "impero",
   "displayName": "Impero",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Work with your Impero controls and activities in Claude: see what's due, review submissions, follow up on late work, fill in activities and draft controls.",
   "author": {
     "name": "Impero A/S",
@@ -20,5 +20,6 @@
   ],
   "icon": "./assets/icon.png",
   "supportUrl": "https://support.impero.com",
+  "documentationUrl": "https://www.impero.com/product/impero-mcp",
   "privacyPolicyUrl": "https://www.impero.com/privacy-policy"
 }
